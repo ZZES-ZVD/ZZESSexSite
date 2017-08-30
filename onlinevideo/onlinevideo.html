@@ -1,0 +1,10 @@
+<div ng-controller="onlinevideoCtrl" class="onlinevideo-page">
+<h1>视频总量：<strong>{{totalnum}}</strong></h1>
+    <div class="col-md-12 onlinevideoDiv" ng-repeat="x in onlinevideos">
+        <h4>{{x.title}}</h4>
+        <video id="my-player" class="video-js" controls preload="auto" poster="//vjs.zencdn.net/v/oceans.png" data-setup='{}'>
+            <source src="{{x.preview_video_url}}" type="video/mp4"></source>
+            </p>
+        </video>
+    </div>
+</div>

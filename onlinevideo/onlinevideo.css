@@ -1,0 +1,15 @@
+.onlinevideo-page  {
+	 text-align: center;
+}
+.onlinevideo-page .onlinevideoDiv{
+	text-align: center;
+}
+.onlinevideo-page .onlinevideoDiv h4 {
+	background: orange;
+	color: #fff;
+}
+.video-js {
+	display: contents;
+	width: 600px;
+	height: 500px;
+}
