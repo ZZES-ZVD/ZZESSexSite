@@ -1,0 +1,24 @@
+#collection-page .collectionDiv{
+	text-align: center;
+	background: #000;
+	border: 4px solid #6A5ACD;
+	color: #fff;
+	padding: 20px;
+}
+
+#collection-page .collectionDiv a {
+	width: 100%;
+	background: #6A5ACD;
+	border: 0;
+}
+
+#collection-page .collectionDiv a:hover {
+	width: 100%;
+	background: #46B8DA;
+	border: 0;
+}
+
+#collection-page .collectionDiv span{
+	font-weight: bold;
+}
+

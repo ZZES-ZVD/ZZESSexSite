@@ -1,0 +1,13 @@
+<div id="collection-page" ng-controller="collectionCtrl">
+	<section>
+		<div class="col-md-4 collectionDiv" ng-repeat="x in collections1">
+			<div>
+				<img src="{{x.cover_url}}" alt="">
+			</div>
+			<h3>{{x.title}}</h3>
+			<p>总观看数：<span>{{x.total_views}}</span></p>
+			<p>视频数量：<span>{{x.video_count}}</span></p>
+			<a class="btn btn-info col-md-12" href="{{x.collection_url}}">Go</a>
+		</div>
+	</section>
+</div>
