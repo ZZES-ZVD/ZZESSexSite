@@ -1,0 +1,31 @@
+body {
+    max-width: 1920px;
+    padding: 0;
+    margin: 0 auto;
+    background:  	#FFC0CB;
+}
+
+a {
+    text-decoration: none;
+}
+
+.index-title {
+    font-size: 20px;
+    color: #FFC0CB;
+}
+
+#callhelp a:link {
+    color: red;
+}
+
+#callhelp a:hover {
+    color: red;
+}
+
+#callhelp a:active {
+    color: red;
+}
+
+section {
+    padding: 20px;
+}
