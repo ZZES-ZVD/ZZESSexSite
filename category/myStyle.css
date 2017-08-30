@@ -1,0 +1,26 @@
+
+.category-border{
+	/*background-color: #FFF;*/
+	border: 4px solid #fff;
+}
+.category-div {
+    padding: 20px;
+    text-align: center;
+    background-color: #FFB6C1;
+}
+
+
+.category-img {
+    height: 100%;
+    width: 100%;
+}
+
+.category-gobtn{
+	color: #fff;
+	background: #6A5ACD;
+}
+
+.category-gobtn:hover{
+	color: #fff;
+	background: #483D8B;
+}

@@ -1,0 +1,11 @@
+    <!-- 大类 -->
+    <section ng-controller="categoryCtrl">
+        <div class="category-border col-md-3" ng-repeat=" x in categories">
+            <div class="category-div">
+                <img src="{{x.cover_url}}" alt="Compas" class="category-img">
+                <h3 class="">{{x.name}}</h3>
+                <p>视频总量：{{x.total_videos}}</p>
+                <a class="btn btn-large btn-block category-gobtn" href="{{x.category_url}}">Go</a>
+            </div>
+        </div>
+    </section>
