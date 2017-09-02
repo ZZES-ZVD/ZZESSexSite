@@ -15,5 +15,9 @@ app.config(function($stateProvider, $urlRouterProvider) {
             url:"/onlinevideo",
             templateUrl:"onlinevideo/onlinevideo.html"
         })
+        .state("searchvideo",{
+            url:"/searchvideo",
+            templateUrl:"searchvideo/searchvideo.html"
+        })
 
 })

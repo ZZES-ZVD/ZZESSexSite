@@ -18,6 +18,7 @@
     <script src="js/myJs/initApp.js"></script>
     <script src="js/myJs/indexRouter.js"></script>
     <script src="js/myJs/indexCtrl.js"></script>
+    <script src="js/myJs/indexFilter.js"></script>
     <!-- category css&js -->
     <link rel="stylesheet" href="category/myStyle.css">
     <script src="category/categoryCtrl.js"></script>
@@ -29,6 +30,9 @@
     <link rel="stylesheet" href="onlinevideo/onlinevideo.css">
     <script src="onlinevideo/onlinevideoCtrl.js"></script>
     <script src="http://vjs.zencdn.net/5.19/video.min.js"></script>
+    <!-- searchvideo css&js -->
+    <link rel="stylesheet" href="searchvideo/searchvideo.css">
+    <script src="searchvideo/searchvideoCtrl.js"></script>
 </head>
 
 <body ng-app="indexApp" ng-controller="indexCtrl">
@@ -52,6 +56,7 @@
                     <li class="index-title"><a ui-sref="category">精选分类</a></li>
                     <li class="index-title"><a ui-sref="collection">超爽合集</a></li>
                     <li class="index-title"><a ui-sref="onlinevideo">在线视频</a></li>
+                    <li class="index-title"><a ui-sref="searchvideo">视频搜索</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right" id="callhelp">
                     <li><a href="http://www.cyberpolice.cn/wfjb/">举报地址</a></li>
