@@ -1,0 +1,29 @@
+.searchvideo-page button{
+	width: 100%;
+}
+
+.searchvideo-page input {
+	width: 100%;
+	font-size: 20px;
+	height: 60px;
+	text-align: center;
+}
+
+.searchvideo-page .tips {
+	width: 100%;
+	height: 20px;
+	display: inline-block;
+	color: white;
+}
+
+.searchvideo-page #likes {
+	background-color: red;
+}
+
+.searchvideo-page #dislikes {
+	background-color: #000;
+}
+
+.searchvideo-page #viewnumber {
+	background-color: blue;
+}

@@ -1,0 +1,18 @@
+<div ng-controller="searchvideoCtrl" class="col-md-12 searchvideo-page">
+	<input type="text" class="col-md-8 searchtext form-control" ng-model="search" placeholder="请使用番号搜索，谢谢" required>
+	<button class="col-md-4 btn btn-warning" ng-click="searchbtn()">Search</button>
+
+	<section class="col-md-12">
+		<h1>共搜索到 <strong>{{total}}</strong></h1>
+		<div class="col-md-12 results" ng-repeat="x in videos">
+			<h3>{{x.title}}</h3>
+			<span>{{x.keyword}}</span>---<span>{{x.addtime|currentDate}}</span>
+			<div class="tips" id="likes">喜欢 <strong>{{x.likes}}</strong></div>
+			<div class="tips" id="dislikes">讨厌 <strong>{{x.dislikes}}</strong></div>
+			<div class="tips" id="viewnumber">观看次数 <strong>{{x.viewnumber}}</strong></div>
+			<video id="my-player" class="video-js" controls preload="auto" poster="//vjs.zencdn.net/v/oceans.png" data-setup='{}'>
+	            <source src="{{x.preview_video_url}}" type="video/mp4"></source>
+        	</video>
+		</div>
+	</section>
+</div>
